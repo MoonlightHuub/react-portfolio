@@ -1,0 +1,118 @@
+.pres-container{
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4em;
+    margin-bottom: 10em;
+    z-index: 2;
+}
+
+.pres-container h2 {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.title-style{
+    animation: myAnimTitle 2s ease 0s 1 normal forwards;
+}
+
+.subtitle-style{
+    color: #EA429A;
+    animation: myAnimSubTitle 2.3s ease 0s 1 normal forwards;
+    margin: 20px;
+}
+
+
+@keyframes myAnimTitle {
+	0% {
+		opacity: 0;
+		transform: translateX(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@keyframes myAnimSubTitle {
+	0% {
+		opacity: 0;
+		transform: translateX(250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.pulse-button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #EA429A;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.pulse-button span{
+    width: 100%;
+    height: 100%;
+    animation: pulseAnimate 2s ease-out infinite;
+    opacity: .8;
+    background-color: inherit;
+    border-radius: 50%;
+    position: absolute;
+    inset: 0;
+}
+
+.pulse-button a{
+    z-index: 5;
+}
+
+.arrow-down{
+    font-size: 1.5em;
+    font: bold;
+    text-decoration: none;
+    color: #f1f1f1;
+}
+
+.span-2{
+    animation: pulseAnimate 2s ease-out infinite;
+    animation-delay: .5s;
+}
+
+.span-3{
+    animation: pulseAnimate 2s ease-out infinite;
+    animation-delay: 1s;
+}
+
+@keyframes pulseAnimate {
+    100% {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
+
+.call-to-action{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 100px;
+}
+
+.call-to-action h3{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container-btn-pulse{
+    display: flex;
+    justify-content: center;
+}

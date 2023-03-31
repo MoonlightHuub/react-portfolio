@@ -1,0 +1,20 @@
+.footer-container{
+    height: 10em;
+    background-color: rgba(11, 7, 25);
+    display: flex;
+    align-items: center;
+    border-top: 2.5px solid #2B214D;
+}
+
+.div-p{
+    display: grid;
+    place-content: center;
+    width: 100%;
+}
+
+.p-footer{
+    color: #C4B6F2;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding: 5px;
+}

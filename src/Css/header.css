@@ -1,0 +1,174 @@
+@media (max-width: 640px){
+    .header-style{
+        height: 80px;
+        width: 100%;
+        background-color: #2B214D;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        z-index: 50;
+    }
+    
+    .head-title{
+        display: grid;
+        place-content: center;
+        width: 80%;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    /* TOGGLE MENU */
+    
+    .menu-icon{
+        background-color: #EA429A;
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+    
+    .icon-off{
+        margin-top: 15px;
+    }
+    
+    .icon-bars{
+        font-size: 2em;
+        color: #f1f1f1;
+    }
+    
+    .menu-on{
+        background-color: rgba(11, 7, 25, 0.9);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        height: 100svh;
+        width: 80svw;
+        animation: myAnimEntrance .2s ease 0s 1 normal forwards;
+        -webkit-box-shadow: 8px -2px 52px 6px rgba(0,0,0,0.75);
+        -moz-box-shadow: 8px -2px 52px 6px rgba(0,0,0,0.75);
+        box-shadow: 8px -2px 52px 6px rgba(0,0,0,0.75);
+        color: #f1f1f1;
+    }
+    
+    .menu-off{
+        animation: myAnimOut .2s ease 0s 1 reverse forwards;
+        display: none;
+        transition: .5s;
+    }
+    
+    .btn-menu-off-container{
+        height: 80px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .menu-btn-off{
+        width: 40%;
+    }
+    
+    /* NAV LINKS */
+    
+    .navlinks-container{
+        text-align: center;
+        font-size: 1.5em;
+    }
+    
+    .navlinks-container li{
+        list-style: none;
+    }
+    
+    .navlinks-container a{
+        text-decoration: none;
+        color: #f1f1f1;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .navlinks-container a:active{
+        color: #EA429A;
+        transition: .2s;
+    }
+    
+    .navlinks-style{
+        margin-bottom: 30px;
+    }
+    
+    /* LANGUAJE SWITCH */
+    
+    .languaje-switch{
+        height: 80px;
+        border-top: 2.5px solid #2B214D;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        transition: .2s;
+    }
+    
+    .languaje-switch p{
+        font-size: 1.2em;
+        font-family: 'Roboto Mono', monospace;
+    }
+    
+    input[type="checkbox"]{
+        position: relative;
+        width: 80px;
+        height: 40px;
+        appearance: none;
+        background-color: #2B214D;
+        border-radius: 20px;
+        transition: .2s;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, .8);
+    }
+    
+    input[type="checkbox"]:before{
+        content: '';
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        background-color: #EA429A;
+        transform: scale(1.1);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .8);
+        transition: .2s;
+    }
+    
+    input:checked[type="checkbox"]:before{
+        left: 40px;
+        transition: .2s;
+    }
+    
+    @keyframes myAnimEntrance {
+        0% {
+            opacity: 0;
+            transform: translateX(-250px);
+        }
+    
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+    
+    @keyframes myAnimOut {
+        0% {
+            opacity: 0;
+            transform: translateX(-250px);
+        }
+    
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+}

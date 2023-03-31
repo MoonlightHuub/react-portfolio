@@ -1,0 +1,51 @@
+@media (max-width: 640px){
+    
+    .title h2{
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .content{
+        padding: 20px;
+        margin-top: -2em;
+    }
+
+    .content p{
+        font-size: 1.2em;
+        font-family: 'Roboto Mono', monospace;
+        color: #C4B6F2;
+        text-align: center;
+    }
+
+    /* SKILLS */
+
+    .skills-container{
+        display: grid;
+        grid-template-columns: auto auto
+    }
+
+    .skills-title{
+        width: 100%;
+        margin-top: 5em;
+        margin-bottom: 5em;
+    }
+
+    .skills-title h2{
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        font-size: 2em;
+    }
+
+    .skill-box{
+        display: grid;
+        place-content: center;
+        padding: 10px;
+    }
+
+    .skills{
+        width: 7em;
+        height: 7em;
+
+    }
+}

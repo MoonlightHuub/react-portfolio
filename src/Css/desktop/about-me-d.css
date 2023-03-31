@@ -1,0 +1,58 @@
+@media (min-width: 640px){
+    .about-me-d{
+        display: flex;
+    }
+
+    .about-me-container-d{
+        width: 60%;
+    }
+
+    .skills-container-d{
+        width: 40%;
+    }
+
+    .skills-icons-d-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        place-content: center;
+    }
+
+    .skills-title-d h2{
+        font-size: 2em;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        color: #f1f1f1;
+    }
+
+    .skills-box-d{
+        margin: 10px;
+    }
+
+    .skills-d{
+        width: 8em;
+        height: 8em;
+        border-radius: 50%;
+    }
+
+    .skills-d:hover{
+        transform: scale(1.2);
+        transition: .3s;
+        cursor: pointer;
+    }
+
+    .title-d h2{
+        font-size: 2em;
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        color: #f1f1f1;
+    }
+
+    .content-d p{
+        font-family: 'Roboto Mono', monospace;
+        color: #C4B6F2;
+        font-size: 1.2em;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

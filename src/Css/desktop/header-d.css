@@ -1,0 +1,102 @@
+@media (min-width: 640px){
+
+    .header-style-d{
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        padding-left: 3em;
+        padding-right: 2em;
+        background-color: #2B214D;
+        position: fixed;
+        z-index: 50;
+    }
+    
+    .menu-btn-on, .btn-menu-off-continer{
+        display: none;
+    }
+
+    .head-title-d{
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .menu-d{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 60%;
+    }
+
+    .lan-switch-d{
+        height: 80px;
+        border-top: 2.5px solid #2B214D;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+        transition: .2s;
+    }
+    
+    .lan-switch-d p{
+        font-size: 1em;
+        margin: 1em;
+        font-family: 'Roboto Mono', monospace;
+    }
+    
+    input[type="checkbox"]{
+        position: relative;
+        width: 60px;
+        height: 30px;
+        appearance: none;
+        background-color: #2B214D;
+        border-radius: 20px;
+        transition: .2s;
+        box-shadow: inset 0 0 5px rgba(0, 0, 0, .8);
+        cursor: pointer;
+    }
+    
+    input[type="checkbox"]:before{
+        content: '';
+        position: absolute;
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        background-color: #EA429A;
+        transform: scale(1.1);
+        box-shadow: 0 2px 5px rgba(0, 0, 0, .8);
+        transition: .2s;
+    }
+    
+    input:checked[type="checkbox"]:before{
+        left: 40px;
+        transition: .2s;
+    }
+
+    .navlinks-d{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .navlinks-d a, li{
+        font-size: 1.1em;
+        text-decoration: none;
+        list-style: none;
+        margin-left: .8em;
+        color: #f1f1f1;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .navlinks-d a:hover, li:hover{
+        transform: scale(1.1);
+        transition: .2s;
+        color: #EA429A;
+    }
+
+
+}
+

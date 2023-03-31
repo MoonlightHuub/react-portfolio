@@ -1,0 +1,122 @@
+@media (max-width: 640px){
+    .projects-title{
+        text-align: center;
+        margin-bottom: 5em;
+        margin-top: 2em;
+    }
+    
+    .projects-title h2{
+        font-size: 2em;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .card-container{
+        display: grid;
+        place-content: center;
+        text-align: center;
+    }
+    
+    .card{
+        width: 19em;
+        height: 18.75em;
+        margin: 15px;
+        border-radius: 20px;
+        overflow: hidden;
+        -webkit-box-shadow: 0px 0px 43px -11px rgba(43, 33, 77, .75);
+        -moz-box-shadow: 0px 0px 43px -11px rgba(43, 33, 77, .75);
+        box-shadow: 0px 0px 43px -11px rgba(43, 33, 77, .75);
+    }
+    
+    .img-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image-card{
+        width: 19em;
+        height: 18.75em;
+        margin: 20px;
+        border-radius: 20px;
+        position: absolute;
+    }
+    
+    .description-card-on{
+        animation: myAnimOff .2s ease 0s 1 reverse forwards;
+    }
+    
+    .description-on{
+        position: relative;
+        background-color: rgba(11, 7, 25, .8);
+        bottom: 15em;
+        left: -.6em;
+        width: 18.75em;
+        height: 15em;
+        padding: 10px;
+        text-align: center;
+        animation: myAnim .2s ease 0s 1 normal forwards;
+    }
+    
+    .paragraph{
+        padding: 10px;
+    }
+    
+    @keyframes myAnim {
+        0% {
+            opacity: 0;
+            transform: translateY(250px);
+        }
+    
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes myAnimOff {
+        0% {
+            opacity: 0;
+            transform: translateY(250px);
+        }
+    
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    
+    .project-title{
+        font-size: 1.5em;
+        color: #f1f1f1;
+        font-family: 'Rubik', sans-serif;
+    }
+    
+    .project-p{
+        height: 6em;
+        max-height: 7em;
+        color: #C4B6F2;
+        font-size: 1.1em;
+        font-family: 'Roboto Mono', monospace;
+    }
+    
+    .buttons{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .buttons button{
+        border: none;
+        background-color: #EA429A;
+        height: 40px;
+        width: 80px;
+        border-radius: 30px;
+    }
+    
+    .buttons button a{
+        text-decoration: none;
+        color: #f1f1f1;
+        font-family: 'Roboto Mono', monospace;
+    }
+}
