@@ -1,4 +1,4 @@
-import { dyno, bank, ecommerce } from "../assets/images/index"
+import { bank, ecommerce, parallax } from "../assets/images/index"
 
 export const cards = [
     {
@@ -21,11 +21,11 @@ export const cards = [
     },
     {
         id: 2,
-        title: 'Dyno Run',
-        img: dyno,
-        page: 'https://moonlighthuub.github.io/dynorunrdd.github.io/',
-        code: 'https://github.com/MoonlightHuub/Juego-Dinosaurio',
-        endesc: 'Dinosaur game based in chrome loading page',
-        esdesc: 'Juego del dinosario basado en el de chrome de las pantallas de carga'
+        title: 'Parallax web',
+        img: parallax,
+        page: 'https://remarkable-sunshine-f6f35c.netlify.app/',
+        code: 'https://github.com/MoonlightHuub/Parallax-Page',
+        endesc: 'Parallax Page made in Next Js',
+        esdesc: 'Pagina parallax hecha con Next Js'
     }
 ]
