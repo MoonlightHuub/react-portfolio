@@ -1,4 +1,4 @@
-import { css, html, javascript, mysql, python, react } from "../assets/images"
+import { css, html, javascript, mysql, python, react, typescript, nodeJs, nextJs, tailwind, boostrap } from "../assets/images"
 
 export const navLinks = [
     {
@@ -92,11 +92,36 @@ export const skills = [
     },
     {
         id: 5,
+        img: typescript,
+        title: 'TypeScript'
+    },
+    {
+        id: 6, 
+        img: nextJs,
+        title: 'Next Js'
+    },
+    {
+        id: 7,
+        img: nodeJs,
+        title: 'Node js'
+    },
+    {
+        id: 8,
+        img: tailwind,
+        title: 'Tailwind Css'
+    },
+    {
+        id: 9,
+        img: boostrap,
+        title: 'Boostrap'
+    },
+    {
+        id: 10,
         img: python,
         title: 'Python'
     },
     {
-        id: 6,
+        id: 11,
         img: mysql,
         title: 'MySql'
     }
