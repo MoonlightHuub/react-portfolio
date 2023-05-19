@@ -1,4 +1,4 @@
-import { bank, ecommerce, parallax } from "../assets/images/index"
+import { bank, ecommerce, parallax, englishApp } from "../assets/images/index"
 
 export const cards = [
     {
@@ -27,5 +27,14 @@ export const cards = [
         code: 'https://github.com/MoonlightHuub/Parallax-Page',
         endesc: 'Parallax Page made in Next Js',
         esdesc: 'Pagina parallax hecha con Next Js'
+    },
+    {
+        id: 3,
+        title: 'Learn English App',
+        img: englishApp,
+        page: 'https://soft-zuccutto-4c3862.netlify.app',
+        code: 'https://github.com/MoonlightHuub/Learn-english-app',
+        endesc: 'App to learn english based in duolingo mobile app',
+        esdesc: 'Una aplicación para aprender ingles basada el la aplicación de moviles duolingo'
     }
 ]

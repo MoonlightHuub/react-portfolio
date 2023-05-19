@@ -14,7 +14,7 @@
         display: grid;
         grid-template-columns: auto auto auto;
         place-content: center;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     .card-d{
@@ -24,6 +24,7 @@
         border-radius: 20px;
         width: 21.8em;
         height: 18.5em;
+        margin: .5em;
         overflow: hidden;
         display: flex;
         justify-content: center;

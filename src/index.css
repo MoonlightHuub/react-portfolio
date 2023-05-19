@@ -1,0 +1,9 @@
+input::placeholder{
+    color: #C4B6F2;
+    font-family: 'Roboto Mono', monospace;
+}
+
+textarea::placeholder{
+    color: #C4B6F2;
+    font-family: 'Roboto Mono', monospace;
+}

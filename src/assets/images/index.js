@@ -12,7 +12,8 @@ import tailwind from './tailwind-css.png'
 import nodeJs from './node-js.png'
 import boostrap from './boostrap.png'
 import typescript from './typescript.png'
+import englishApp from './learnEnglishApp.png'
 
 export {
-    parallax, ecommerce, bank, python, mysql, react, javascript, html, css, nextJs, nodeJs, tailwind, boostrap, typescript
+    parallax, ecommerce, bank, python, mysql, react, javascript, html, css, nextJs, nodeJs, tailwind, boostrap, typescript, englishApp
 }
